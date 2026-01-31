@@ -20,6 +20,20 @@ def binary_search(list:list[int], item:int):
     return None
 
 
+def binary_search_recursive(arr: list, element, left: int, right: int):
+    if left > right:
+        return -1  # not found
+
+    mid = (left + right) // 2
+
+    if arr[mid] == element:
+        return mid  # return index for clarity
+    elif arr[mid] > element:
+        return binary_search_recursive(arr, element, left, mid - 1)
+    else:
+        return binary_search_recursive(arr, element, mid + 1, right)
+
+
 
 if __name__ == "__main__":
     steps = 1
