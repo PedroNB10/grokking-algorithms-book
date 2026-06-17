@@ -1,4 +1,17 @@
-## Chapter 04
+---
+title: Chapter 04 - Quicksort
+book: Grokking Algorithms
+author: Aditya Bhargava
+chapter: 4
+tags:
+  - grokking-algorithms
+  - quicksort
+  - divide-and-conquer
+  - recursion
+  - big-o
+---
+
+# Chapter 04 - Quicksort
 
 • You learn about divide-and-conquer. Sometimes
 you’ll come across a problem that can’t be solved
@@ -228,4 +241,14 @@ search, because O(log n) is so much faster than O(n) when your list
 gets big.
 
 ==> Choosing a random pivot makes the average case behavior of QuickSort more likely. It reduces the chance of always hitting the worst-case time complexity O(n^2), especially for adversarial inputs like already-sorted arrays.
+
+## Code
+
+- [[quicksort.py]] — quicksort in Python: a first-element-pivot version and a random-pivot version.
+- [[quicksort.cpp]] — randomized quicksort in C++ (`g++ quicksort.cpp -o quicksort`).
+- [[recursive-sum.py]] — divide-and-conquer exercise solutions: recursive sum, count, max, and binary search.
+
+---
+
+**Navigation:** [[Chapter 03 - Recursion|← Previous]] · [[Grokking Algorithms|📚 Index]] · [[Chapter 05 - Hash Tables|Next →]]
 

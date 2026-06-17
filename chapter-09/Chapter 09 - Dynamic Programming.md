@@ -1,4 +1,15 @@
-## Chapter 09
+---
+title: Chapter 09 - Dynamic Programming
+book: Grokking Algorithms
+author: Aditya Bhargava
+chapter: 9
+tags:
+  - grokking-algorithms
+  - dynamic-programming
+  - knapsack
+---
+
+# Chapter 09 - Dynamic Programming
 
 - You learn dynamic programming, a
 technique to solve a hard problem by
@@ -23,3 +34,7 @@ and rate how much you want to see it.
 ![alt text](image-1.png)
 
 last page : 196
+
+---
+
+**Navigation:** [[Chapter 08 - Greedy Algorithms|← Previous]] · [[Grokking Algorithms|📚 Index]]

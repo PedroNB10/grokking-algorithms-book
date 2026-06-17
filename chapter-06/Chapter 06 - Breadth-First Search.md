@@ -1,4 +1,16 @@
-## Chapter 06
+---
+title: Chapter 06 - Breadth-First Search
+book: Grokking Algorithms
+author: Aditya Bhargava
+chapter: 6
+tags:
+  - grokking-algorithms
+  - graphs
+  - bfs
+  - queue
+---
+
+# Chapter 06 - Breadth-First Search
 
 - You learn how to model a network using a new,
 abstract data structure: graphs.
@@ -143,3 +155,12 @@ the shortest path.
 Otherwise, you might end up in an ininite loop.
 
 Current page: 134
+
+## Code
+
+- [[BFS.py]] — breadth-first search over the "mango seller" graph (is there a path / shortest path).
+- [[BFS_order.py]] — BFS traversal order over a larger graph, handling disconnected vertices (study version).
+
+---
+
+**Navigation:** [[Chapter 05 - Hash Tables|← Previous]] · [[Grokking Algorithms|📚 Index]] · [[Chapter 07 - Dijkstra's Algorithm|Next →]]

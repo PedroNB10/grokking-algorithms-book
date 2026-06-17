@@ -1,4 +1,16 @@
-## Chapter 01
+---
+title: Chapter 01 - Binary Search
+book: Grokking Algorithms
+author: Aditya Bhargava
+chapter: 1
+tags:
+  - grokking-algorithms
+  - algorithms
+  - binary-search
+  - big-o
+---
+
+# Chapter 01 - Binary Search
 
 ![alt text](image.png)
 
@@ -89,3 +101,11 @@ items you’re searching through grows.
 - Algorithm speed isn’t measured in seconds.
 - Algorithm times are measured in terms of growth of an algorithm.
 - Algorithm times are written in Big O notation.
+
+## Code
+
+- [[binary_search.py]] — iterative and recursive binary search, plus an interactive number-guessing demo (`python binary_search.py`).
+
+---
+
+**Navigation:** [[Grokking Algorithms|📚 Index]] · [[Chapter 02 - Arrays and Linked Lists|Next →]]

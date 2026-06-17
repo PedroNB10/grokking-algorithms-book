@@ -1,4 +1,15 @@
-## Chapter 03
+---
+title: Chapter 03 - Recursion
+book: Grokking Algorithms
+author: Aditya Bhargava
+chapter: 3
+tags:
+  - grokking-algorithms
+  - recursion
+  - call-stack
+---
+
+# Chapter 03 - Recursion
 
 -  You learn about recursion. Recursion is a coding
 technique used in many algorithms. It’s a building
@@ -73,4 +84,13 @@ and the recursive case.
 • A stack has two operations: push and pop.
 • All function calls go onto the call stack.
 • he call stack can get very large, which takes up a lot of memory
+
+## Code
+
+- [[recursion.py]] — a simple `countdown` showing the base case and recursive case.
+- [[stack-overflow.py]] — recursion with **no** base case, which overflows the call stack.
+
+---
+
+**Navigation:** [[Chapter 02 - Arrays and Linked Lists|← Previous]] · [[Grokking Algorithms|📚 Index]] · [[Chapter 04 - Quicksort|Next →]]
 

@@ -1,4 +1,17 @@
-## Chapter 02
+---
+title: Chapter 02 - Arrays and Linked Lists
+book: Grokking Algorithms
+author: Aditya Bhargava
+chapter: 2
+tags:
+  - grokking-algorithms
+  - data-structures
+  - arrays
+  - linked-lists
+  - selection-sort
+---
+
+# Chapter 02 - Arrays and Linked Lists
 
  - Sorting Algorithms, Arrays and Linked Lists
 
@@ -120,3 +133,11 @@ the address of the next one.
 - Linked lists allow fast inserts and deletes.
 - All elements in the array should be the same type (all ints,
 all doubles, and so on).
+
+## Code
+
+- [[selection_sort.py]] — selection sort (`findSmallest` + `selectionSort`), an O(n²) sort.
+
+---
+
+**Navigation:** [[Chapter 01 - Binary Search|← Previous]] · [[Grokking Algorithms|📚 Index]] · [[Chapter 03 - Recursion|Next →]]

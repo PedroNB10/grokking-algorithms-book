@@ -1,4 +1,17 @@
-## Chapter 08
+---
+title: Chapter 08 - Greedy Algorithms
+book: Grokking Algorithms
+author: Aditya Bhargava
+chapter: 8
+tags:
+  - grokking-algorithms
+  - greedy
+  - np-complete
+  - set-covering
+  - approximation
+---
+
+# Chapter 08 - Greedy Algorithms
 
 In this chapter:
 - You learn how to tackle the impossible:
@@ -136,3 +149,11 @@ approximation algorithm.
 good approximation algorithms.
 
 Current page: 180
+
+## Code
+
+- [[approximation-algorithm-np-problem.py]] — greedy set-covering approximation for the radio-station problem.
+
+---
+
+**Navigation:** [[Chapter 07 - Dijkstra's Algorithm|← Previous]] · [[Grokking Algorithms|📚 Index]] · [[Chapter 09 - Dynamic Programming|Next →]]

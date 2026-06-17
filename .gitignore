@@ -1,0 +1,9 @@
+# Compiled binaries / build artifacts
+chapter-04/quicksort
+*.exe
+*.out
+a.out
+
+# Python
+__pycache__/
+*.pyc

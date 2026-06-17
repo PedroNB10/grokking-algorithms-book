@@ -1,4 +1,17 @@
-## Chapter 07
+---
+title: Chapter 07 - Dijkstra's Algorithm
+book: Grokking Algorithms
+author: Aditya Bhargava
+chapter: 7
+tags:
+  - grokking-algorithms
+  - graphs
+  - dijkstra
+  - weighted-graphs
+  - shortest-path
+---
+
+# Chapter 07 - Dijkstra's Algorithm
 
 - We continue the discussion of graphs, and you
 learn about weighted graphs: a way to assign
@@ -94,3 +107,13 @@ a weighted graph.
 
 
 Current page: 160
+
+## Code
+
+- [[Dijkstra.py]] — Dijkstra on the book's start → fin graph; finds the lowest-cost node step by step.
+- [[Dijkstrapt2.py]] — Dijkstra on the book/LP/poster/piano graph, printing final costs and parents.
+- [[Dikstrapt3.py]] — object-oriented Dijkstra (a `Node` class) with full shortest-path reconstruction.
+
+---
+
+**Navigation:** [[Chapter 06 - Breadth-First Search|← Previous]] · [[Grokking Algorithms|📚 Index]] · [[Chapter 08 - Greedy Algorithms|Next →]]

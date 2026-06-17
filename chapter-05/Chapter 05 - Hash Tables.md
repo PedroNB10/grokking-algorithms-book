@@ -1,4 +1,16 @@
-## Chapter 05
+---
+title: Chapter 05 - Hash Tables
+book: Grokking Algorithms
+author: Aditya Bhargava
+chapter: 5
+tags:
+  - grokking-algorithms
+  - hash-tables
+  - hash-functions
+  - big-o
+---
+
+# Chapter 05 - Hash Tables
 
 • You learn about hash tables, one of the most
 useful basic data structures. Hash tables have many
@@ -171,4 +183,8 @@ your hash table.
 - Hash tables are used for caching data (for example, with
 a web server).
 - Hash tables are great for catching duplicates.
+
+---
+
+**Navigation:** [[Chapter 04 - Quicksort|← Previous]] · [[Grokking Algorithms|📚 Index]] · [[Chapter 06 - Breadth-First Search|Next →]]
 
